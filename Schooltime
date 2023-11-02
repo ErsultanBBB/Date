@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Принятые данные</title>
+</head>
+<body>
+    <h1>Принятые данные:</h1>
+    <p id="data"></p>
+
+    <script>
+        function displayData(data) {
+            document.getElementById("data").innerHTML = data;
+        }
+    </script>
+</body>
+</html>
